@@ -14,7 +14,7 @@ import json
 firebaseConfig = {
   'apiKey': "AIzaSyCQXfIBqeLrouhOUDteaVT9w5nB94RuaDs",
   'authDomain': "domz-444f8.firebaseapp.com",
-  'databaseURL': "https://domz-444f8-default-rtdb.firebaseio.com"",
+  'databaseURL': "https://domz-444f8-default-rtdb.firebaseio.com",
   'projectId': "domz-444f8",
   'storageBucket': "domz-444f8.appspot.com",
   'messagingSenderId': "883869714010",
