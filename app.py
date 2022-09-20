@@ -12,15 +12,16 @@ import pandas as pd
 import json
 
 firebaseConfig = {
-  'apiKey': "AIzaSyBzv4wHTERmcKaN5lNL2IpYv0zIUkzhdaQ",
-  'authDomain': "kudashboard2022.firebaseapp.com",
-  'databaseURL': "https://kudashboard2022-default-rtdb.firebaseio.com",
-  'projectId': "kudashboard2022",
-  'storageBucket': "kudashboard2022.appspot.com",
-  'messagingSenderId': "630601525788",
-  'appId': "1:630601525788:web:c1f526ea143c8fe63a8dd9",
-  'measurementId': "G-C2HDJ5X3DE"
+  'apiKey': "AIzaSyCQXfIBqeLrouhOUDteaVT9w5nB94RuaDs",
+  'authDomain': "domz-444f8.firebaseapp.com",
+  'databaseURL': "https://domz-444f8-default-rtdb.firebaseio.com"",
+  'projectId': "domz-444f8",
+  'storageBucket': "domz-444f8.appspot.com",
+  'messagingSenderId': "883869714010",
+  'appId': "1:883869714010:web:c9aca2f30b2be0971d3a63",
+  'measurementId': "G-XGKQLM2VXB"
 }
+
 firebase = pyrebase.initialize_app(firebaseConfig)
 db = firebase.database()
 auth = firebase.auth()
