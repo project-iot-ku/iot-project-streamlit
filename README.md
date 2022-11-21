@@ -1,6 +1,6 @@
 # KU-dashboard
 ## My first Sreamlit project, it's very awesome
-[You can reach the application here.](https://congltk1234-ku-dashboard-app-o3tznm.streamlitapp.com/)
+[You can reach the application here.](https://buranon-sutthichai-ku-dashboard-app-rt0yfv.streamlit.app/)
 
 ## The MIT App Inventor: 
 [Check inside MIT app by click here](http://ai2.appinventor.mit.edu/?ng=1e9d8f88-e563-40a8-b9a7-7dbfd718b276)
