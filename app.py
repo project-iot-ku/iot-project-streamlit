@@ -151,6 +151,12 @@ with st.sidebar:
         
 
     ## Checkbox show data
+    bulbControl = st.select_slider(
+    'Select Bulb state', options=['ON', 'OFF'])
+    if db.get().val()['LED State'] != bulbControl:
+        st.success(f"BULB is {bulbControl}")
+        db.update({"LED State":bulbControl})
+        
     show_data = st.checkbox('Show data')   
 
 
