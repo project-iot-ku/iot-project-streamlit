@@ -159,7 +159,7 @@ with st.sidebar:
         
     bulbControl_27 = st.select_slider(
     'Select Relay 27 state', options=['ON', 'OFF'])
-    if db.get().val()'Relay 27'] != bulbControl_27:
+    if db.get().val()['Relay 27'] != bulbControl_27:
         st.success(f"Relay 27 is {bulbControl_27}")
         db.update({"Relay 27":bulbControl_27})
     
