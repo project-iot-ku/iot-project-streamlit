@@ -153,15 +153,15 @@ with st.sidebar:
     ## Checkbox show data
     bulbControl_26= st.select_slider(
     'Select Relay 26 state', options=['ON', 'OFF'])
-    if db.get().val()['Relay 26'] != bulbControl_26:
+    if db.get().val()['Relay26'] != bulbControl_26:
         st.success(f"Relay 26 is {bulbControl_26}")
-        db.update({"Relay 26":bulbControl_26})
+        db.update({"Relay26":bulbControl_26})
         
     bulbControl_27 = st.select_slider(
     'Select Relay 27 state', options=['ON', 'OFF'])
-    if db.get().val()['Relay 27'] != bulbControl_27:
+    if db.get().val()['Relay27'] != bulbControl_27:
         st.success(f"Relay 27 is {bulbControl_27}")
-        db.update({"Relay 27":bulbControl_27})
+        db.update({"Relay27":bulbControl_27})
     
     
     show_data = st.checkbox('Show data')   
