@@ -25,7 +25,7 @@ firebaseConfig = {
 firebase = pyrebase.initialize_app(firebaseConfig)
 db = firebase.database()
 auth = firebase.auth()
-email = 'kudashboard@mail.com'
+email = 'admin@mail.com'
 password = '123456'
 auth.sign_in_with_email_and_password(email, password)
 print("successfully signed in!")
